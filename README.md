@@ -1,4 +1,6 @@
 # simple-navigation
 A simple navigation bar
 
-In Developer Menu Settings - Disable Local File Restricions
+In Safari Developer Menu Settings - Disable Local File Restricions
+
+Run navigation.html file
