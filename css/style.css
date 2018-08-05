@@ -1,0 +1,61 @@
+
+  
+@font-face {
+  font-family: SF Pro Text;
+  src: url("SF-Pro-Text-Light.otf") format("opentype");
+}
+
+ul#simple-nav:after {
+content: " ";
+display: block;
+width: 95vw;
+position: absolute;
+height: 1px;
+background: #d6d6d6;
+margin: 34px 16px;
+} 
+ul {
+  position: relative;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  margin: 0 16px;
+}
+
+li {
+  position: relative;
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px;
+}
+li a {
+  text-decoration: none;
+  font-family: "SF Pro Text", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 13px;
+  color: #333333;
+}
+
+a:hover {
+  color: #5296af;
+}
+li.active a:hover {
+  color: black !important;
+}
+a:active {
+  color: black !important;
+}
+
+#simple-nav-line {
+  position: absolute;
+  height: 1px;
+  display: block;
+  background: black;
+  margin: 1em 0 0 0;
+  z-index: 2;
+
+  transition: all .25s cubic-bezier(.19,0,.22,1);
+  -webkit-transition: all .25s cubic-bezier(.19,0,.22,1);
+  -moz-transition: all .25s cubic-bezier(.19,0,.22,1);
+  -o-transition: all .25s cubic-bezier(.19,0,.22,1);
+  transition: all .25s cubic-bezier(.19,0,.22,1);
+}
